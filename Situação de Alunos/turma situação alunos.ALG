@@ -1,11 +1,11 @@
 algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação] 
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o] 
 // Professor   : Antonio Carlos Nicolodi 
 var
-nome: vetor [1..3] de caractere
-nota1: vetor [1..3] de real
-nota2: vetor [1..3] de real
-r: vetor [1..3] de caractere
+nome: vetor [1..10] de caractere
+nota1: vetor [1..10] de real
+nota2: vetor [1..10] de real
+r: vetor [1..10] de caractere
 curso, s: caractere
 i, q, cont: inteiro
 n1, n2, media: real
@@ -53,8 +53,8 @@ Para i <- 1 ate 3 faca
 fimpara
 
 Escreval ("CURSO: ",curso)
-Escreval ("NÚMERO DE ALUNOS: ", Q)
-Escreval ("SITUAÇÃO DOS ALUNOS:")
+Escreval ("NÃšMERO DE ALUNOS: ", Q)
+Escreval ("SITUAÃ‡ÃƒO DOS ALUNOS:")
 Escreval ("-----------------------")
 Para i <- 1 ate 3 faca
       Escreva (nome[i])
