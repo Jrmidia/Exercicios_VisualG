@@ -1,8 +1,8 @@
-algoritmo "SalaioLiquido"
-// Função : calcular o salario liquido
-// Autor :
+algoritmo "SalarioLiquido"
+// FunÃ§Ã£o : calcular o salario liquido
+// Autor : Manoel Junior
 // Data : 27/09/2022
-// Seção de Declarações 
+
 var
 sal:vetor [1..10] de real
 desconto:vetor [1..10] de real
@@ -21,7 +21,7 @@ Leia (q)
 para i de 1 ate q faca
 Escreva ("Funcionario", i,": ")
 Leia (nome[i])
-Escreva ("Salário: R$")
+Escreva ("SalÃ¡rio: R$")
 Leia (sal[i])
 Escreva("Total de vendas: R$")
 Leia (vendas[i])
@@ -38,12 +38,12 @@ Escreval ()
 para i de 1 ate q faca
 
 Escreval (NOME[i])
-Escreval ("Salário: R$", sal[i])
+Escreval ("SalÃ¡rio: R$", sal[i])
 Escreval ("Total de vendas: R$", vendas[i])
-Escreval ("Comissão: R$", comissao[i])
-Escreval ("Salário Bruto: R$", saltotal[i])
+Escreval ("ComissÃ£o: R$", comissao[i])
+Escreval ("SalÃ¡rio Bruto: R$", saltotal[i])
 Escreval ("Valor descontado: R$", desconto[i])
-Escreval ("Salário Líquido: R$", Saliquido[i])
+Escreval ("SalÃ¡rio LÃ­quido: R$", Saliquido[i])
 Escreval ()
 fimpara
 Escreval ("=== FIM DA FOLHA DE PAGAMENTO ===")
@@ -65,7 +65,7 @@ Se (esc = "s") entao
    Escreva (".")
    timer 200
    Escreval()
-   Escreval ("impressão concluida")
+   Escreval ("impressÃ£o concluida")
    
          senao
          se (esc = "n") entao
