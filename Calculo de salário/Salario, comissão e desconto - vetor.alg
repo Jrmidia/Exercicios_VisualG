@@ -1,4 +1,4 @@
-algoritmo "SalaioLiquido"
+algoritmo "SalarioLiquido"
 // Função : calcular o salario liquido
 // Autor :
 // Data : 27/09/2022
